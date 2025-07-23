@@ -21,7 +21,7 @@ def main():
 
         if choice == "1":
             item = input("Что купили? ")
-            price = input("Сколько стоит? ")
+            price = input("Сколько стоит?(написать в суммах) ")
             add_purchase(item, price)
         elif choice == "2":
             show_purchases()
